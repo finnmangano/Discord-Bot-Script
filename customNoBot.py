@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-TOKEN = os.getenv("BOT_TOKEN") # Create a .env file and insert 'BOT_TOKEN=your_discord_bot_token_here'
+TOKEN = os.getenv("BOT_TOKEN")
 
 print("Token loaded:", TOKEN)
 if not TOKEN:
